@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Satisfy);
 :root {
 	--version-content: "2.4"
 }
@@ -12,7 +11,6 @@
 
 .themedescription:before{display:block;font-size:14px;height:15px;color:#3ddcb1;font-weight:700;content:"Updates are automatic. Just restart Discord to get the latest version.";}
 
-body:before{content:"Thanks for using Quiet!";z-index:1000000000000000000000000;color:#fff;background:var(--main-color);top:0px;left:50%;position:absolute;border-radius:5px;padding:5px 15px;-webkit-transform:translate(-50%, -100%);transform:translate(-50%, -100%);-webkit-animation:version 3s ease;animation:version 3s ease;-webkit-animation-delay:4s;animation-delay:4s;}
 
 body,span:not(.spinner-item){-webkit-font-smoothing:antialiased;-webkit-backface-visibility:hidden;}
 
@@ -127,7 +125,7 @@ div.avatar-large{border-radius:5px;}
 
 .guilds-wrapper .guilds .guild .guild-inner{background:#0a0a0a !important;}
 
-.chat .divider.divider-red > span{color:#b12340 !important;background-color:#111113 !important;border-radius:3px;text-align:center;left:0px;}
+.chat .divider.divider-red > span{color:#179FE3 !important;background-color:#111113 !important;border-radius:3px;text-align:center;left:0px;}
 
 .message-group.has-divider{border-color:transparent;}
 
@@ -2001,34 +1999,6 @@ button.bd-customicon-settings{display:none;}
 
 form.modal-content.form.need-help-modal::after{content:"";background:#fff;position:relative;z-index:10;}
 
-.need-help-modal .header{background-color:transparent;height:140px;;padding:0;}
-
-.need-help-modal .header::after{content:"";background-color:var(--main-color);border-top-left-radius:3px;border-top-right-radius:3px;position:relative;z-index:10;height:150px;width:100%;padding:0;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;}
-
-.need-help-modal .header h1{color:transparent;font-weight:700;margin:38px 0 0;font-size:18px;}
-
-.need-help-modal .header input[type=text]{display:none;}
-
-.need-help-modal .header h1{color:transparent;font-weight:700;margin:38px 0px 0px;font-size:18px;margin-right:36%;top:15%;position:relative;}
-
-.need-help-modal .header h1::after{content:"Quiet";color:#fff;font-weight:700;font-size:250%;z-index:11;position:absolute;width:100%;top:110%;font-family:Satisfy;text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);}
-
-.need-help-modal .form-inner.loading{background:transparent;padding-bottom:0px;padding-top:0px;}
-
-.need-help-modal .form-inner.loading::after{content:"M\0332 a\0332 k\0332 e\0332 r\0332:\A Omniscient#0002 \A\A P\0332 e\0332 r\0332 s\0332 o\0332 n\0332 a\0332 l\0332 S\0332 e\0332 r\0332 v\0332 e\0332 r\0332:\A discord.io/mrrobot \A\A D\0332 o\0332 n\0332 a\0332 t\0332 i\0332 o\0332 n\0332:\A paypal.me/Chaotiic \A\A C\0332 r\0332 e\0332 d\0332 i\0332 t\0332 s\0332:\A uri#0002 (Single)";padding:38px;min-height:200px;background-color:#19191b;width:100%;white-space:pre;color:#fff;}
-
-.need-help-modal .form-inner > ul{display:none;}
-
-.need-help-modal .footer a{display:none;}
-
-.need-help-modal .footer{background-color:transparent;color:transparent;border-top:0px #e9e7e7 solid;padding-top:0px;padding-left:0px;width:100%;position:relative;}
-
-.need-help-modal .footer::after{content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0Need help? Visit https://betterdocs.net";background-color:#19191b;width:100%;height:34px;position:absolute;bottom:0;left:0;line-height:32px;border-radius:0 0 5px 5px;border-top:2px solid #161618;color:#fff;}
-
-.need-help-modal .form-inner.loading .spinner{display:none!important;}
-
-.need-help-modal .form-inner .failed{display:none;}
-
 .empty-placeholder .image[style*='background-image:url("/assets/6793e022dc1b065b21f12d6df02f91bd.svg");']{background-image:url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_sentiment_very_dissatisfied_white_24px.svg)!important;opacity:0.3;}
 
 .radio .radio-inner input[type=radio]:checked+span:after{-webkit-transform:scale(0);transform:scale(0);-webkit-transition-delay:50ms;transition-delay:50ms;}
@@ -2073,7 +2043,7 @@ form.modal-content.form.need-help-modal::after{content:"";background:#fff;positi
 
 .emoji-picker .dimmer{z-index:2}
 
-.diversity-selector .popout{;background:#121213;border-color:#121213}
+.diversity-selector .popout{background:#121213;border-color:#121213}
 
 .status-picker .popout-menu-item .helper{margin:-21px 0px 0 -4px;color:#fff;text-align:center;padding-top:6px;opacity:0}
 
@@ -2119,7 +2089,7 @@ form.modal-content.form.need-help-modal::after{content:"";background:#fff;positi
 
 .channel-textarea-upload+textarea {margin-left: 5px;}
 
-.channel-textarea-inner textarea{color:#fff;-webkit-transition: all 100ms ease;transition: all 100ms ease;margin-left: 10px !important;padding: 26px 0px;margin-left: 25px;margin-right: 0;max-height: 200px}}
+.channel-textarea-inner textarea{color:#fff;-webkit-transition: all 100ms ease;transition: all 100ms ease;margin-left: 10px !important;padding: 26px 0px;margin-left: 25px;margin-right: 0;max-height: 200px}
 
 .channel-textarea-inner textarea:focus{color:#fff;-webkit-transition:all 100ms ease;transition:all 100ms ease;opacity:0.95;}
 
@@ -2787,7 +2757,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .ui-card[style*="padding: 10px; border-color: rgb(240, 71, 71); background-color: rgb(240, 71, 71);"] {border-color: #f04747 !important;background-color: #f04747 !important;border: 2px solid #f04747 !important;}
 
-.channel-members::after {content: "Quiet v"var(--version-content);font-family: "Satisfy";text-align: center;background: #19191b;color: #2e2e30;font-weight: 700;font-size: 250%;width: 100%;height: 70px;bottom: 0px;position: absolute;line-height: 75px;border-top: 2px solid #212121;left: -2px;z-index: 1;border-radius: 0px !important;padding-right: 30px;}
+.channel-members::after {content: "Quiet v"var(--version-content);text-align: center;background: #19191b;color: #2e2e30;font-weight: 700;font-size: 250%;width: 100%;height: 70px;bottom: 0px;position: absolute;line-height: 75px;border-top: 2px solid #212121;left: -2px;z-index: 1;border-radius: 0px !important;padding-right: 30px;}
 
 #friends .friends-table .friends-table-body::after{content: "";background: #19191b;width: 1400px;height: 70px;bottom: 0px;position: absolute;border-top: 2px solid #212121;}
 
@@ -2866,7 +2836,7 @@ polyline[stroke*="#7289da"]{stroke:var(--main-color) !important;}
 
 .header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCA5LjMyNTg0MjdjMCAuNzQxNTczMDMuNjE2NDM4MzYgMS4zNTk1NTA1NiAxLjM1NjE2NDM4IDEuMzU5NTUwNTYuNzM5NzI2MDMgMCAxLjM1NjE2NDQtLjYxNzk3NzUzIDEuMzU2MTY0NC0xLjM1OTU1MDU2IDAtMS40ODMxNDYwNyAxLjYwMjczOTctMS41NDQ5NDM4MiAxLjc4NzY3MTIyLTEuNTQ0OTQzODIuMTg0OTMxNSAwIDEuNzg3NjcxMjMuMDYxNzk3NzUgMS43ODc2NzEyMyAxLjU0NDk0Mzgydi4zMDg5ODg3NmMwIC42MTc5Nzc1My0uMzA4MjE5MTggMS4xMTIzNTk1NS0uODYzMDEzNyAxLjQyMTM0ODMybC0xLjIzMjg3NjcuNjc5Nzc1MjhjLS42NzgwODIyLjM3MDc4NjUtMS4wNDc5NDUyIDEuMDUwNTYxOC0xLjA0Nzk0NTIgMS43OTIxMzQ4M3YxLjExMjM1OTUyQzExLjE0MzgzNTYzIDE1LjM4MjAyMjUgMTEuNzYwMjczOTYgMTYgMTIuNSAxNmMuNzM5NzI2MDMgMCAxLjM1NjE2NDM4LS42MTc5Nzc1IDEuMzU2MTY0MzgtMS4zNTk1NTA1NnYtLjY3OTc3NTI4bC44NjMwMTM3LS40MzI1ODQyN0MxNi4xMzY5ODYzIDEyLjc4NjUxNjgyIDE3IDExLjMwMzM3MDggMTcgOS42OTY2Mjkydi0uMzcwNzg2NUMxNyA2LjQ4MzE0NjA3IDE0LjcxOTE3ODA4IDUgMTIuNSA1IDEwLjIxOTE3ODA4IDUgOCA2LjQ4MzE0NjA3IDggOS4zMjU4NDI3ek0xMi41IDE3Yy0yIDAtMiAzIDAgM3MyLTMgMC0zeiIvPgo8L3N2Zz4=");']:hover::after{opacity:1 !important;color:#d1d1d1 !important;}
 
-.header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCA5LjMyNTg0MjdjMCAuNzQxNTczMDMuNjE2NDM4MzYgMS4zNTk1NTA1NiAxLjM1NjE2NDM4IDEuMzU5NTUwNTYuNzM5NzI2MDMgMCAxLjM1NjE2NDQtLjYxNzk3NzUzIDEuMzU2MTY0NC0xLjM1OTU1MDU2IDAtMS40ODMxNDYwNyAxLjYwMjczOTctMS41NDQ5NDM4MiAxLjc4NzY3MTIyLTEuNTQ0OTQzODIuMTg0OTMxNSAwIDEuNzg3NjcxMjMuMDYxNzk3NzUgMS43ODc2NzEyMyAxLjU0NDk0Mzgydi4zMDg5ODg3NmMwIC42MTc5Nzc1My0uMzA4MjE5MTggMS4xMTIzNTk1NS0uODYzMDEzNyAxLjQyMTM0ODMybC0xLjIzMjg3NjcuNjc5Nzc1MjhjLS42NzgwODIyLjM3MDc4NjUtMS4wNDc5NDUyIDEuMDUwNTYxOC0xLjA0Nzk0NTIgMS43OTIxMzQ4M3YxLjExMjM1OTUyQzExLjE0MzgzNTYzIDE1LjM4MjAyMjUgMTEuNzYwMjczOTYgMTYgMTIuNSAxNmMuNzM5NzI2MDMgMCAxLjM1NjE2NDM4LS42MTc5Nzc1IDEuMzU2MTY0MzgtMS4zNTk1NTA1NnYtLjY3OTc3NTI4bC44NjMwMTM3LS40MzI1ODQyN0MxNi4xMzY5ODYzIDEyLjc4NjUxNjgyIDE3IDExLjMwMzM3MDggMTcgOS42OTY2Mjkydi0uMzcwNzg2NUMxNyA2LjQ4MzE0NjA3IDE0LjcxOTE3ODA4IDUgMTIuNSA1IDEwLjIxOTE3ODA4IDUgOCA2LjQ4MzE0NjA3IDggOS4zMjU4NDI3ek0xMi41IDE3Yy0yIDAtMiAzIDAgM3MyLTMgMC0zeiIvPgo8L3N2Zz4=");']::after{content:"Q";font-family:"Satisfy";text-align:center;color:#fff;font-size:18px;position:absolute;left:9px;top:3px;padding-left:1px;transition:.1s color linear;}
+.header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCA5LjMyNTg0MjdjMCAuNzQxNTczMDMuNjE2NDM4MzYgMS4zNTk1NTA1NiAxLjM1NjE2NDM4IDEuMzU5NTUwNTYuNzM5NzI2MDMgMCAxLjM1NjE2NDQtLjYxNzk3NzUzIDEuMzU2MTY0NC0xLjM1OTU1MDU2IDAtMS40ODMxNDYwNyAxLjYwMjczOTctMS41NDQ5NDM4MiAxLjc4NzY3MTIyLTEuNTQ0OTQzODIuMTg0OTMxNSAwIDEuNzg3NjcxMjMuMDYxNzk3NzUgMS43ODc2NzEyMyAxLjU0NDk0Mzgydi4zMDg5ODg3NmMwIC42MTc5Nzc1My0uMzA4MjE5MTggMS4xMTIzNTk1NS0uODYzMDEzNyAxLjQyMTM0ODMybC0xLjIzMjg3NjcuNjc5Nzc1MjhjLS42NzgwODIyLjM3MDc4NjUtMS4wNDc5NDUyIDEuMDUwNTYxOC0xLjA0Nzk0NTIgMS43OTIxMzQ4M3YxLjExMjM1OTUyQzExLjE0MzgzNTYzIDE1LjM4MjAyMjUgMTEuNzYwMjczOTYgMTYgMTIuNSAxNmMuNzM5NzI2MDMgMCAxLjM1NjE2NDM4LS42MTc5Nzc1IDEuMzU2MTY0MzgtMS4zNTk1NTA1NnYtLjY3OTc3NTI4bC44NjMwMTM3LS40MzI1ODQyN0MxNi4xMzY5ODYzIDEyLjc4NjUxNjgyIDE3IDExLjMwMzM3MDggMTcgOS42OTY2Mjkydi0uMzcwNzg2NUMxNyA2LjQ4MzE0NjA3IDE0LjcxOTE3ODA4IDUgMTIuNSA1IDEwLjIxOTE3ODA4IDUgOCA2LjQ4MzE0NjA3IDggOS4zMjU4NDI3ek0xMi41IDE3Yy0yIDAtMiAzIDAgM3MyLTMgMC0zeiIvPgo8L3N2Zz4=");']::after{content:"Q";text-align:center;color:#fff;font-size:18px;position:absolute;left:9px;top:3px;padding-left:1px;transition:.1s color linear;}
 
 .theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner:hover {background-color: var(--hover-color);}
 
