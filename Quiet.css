@@ -4265,3 +4265,5 @@ form .bf-toolbar{position:absolute !important;transform:translate(0px, -60px) !i
 @keyframes hue-rotate{from{-webkit-filter:hue-rotate();}to{-webkit-filter:hue-rotate(360deg);}}
 
 .content-2mSKOj{margin: 1px 0 1px 0px;padding: 0px 8px 0px 16px;}
+
+.guild.theme-top{top: 19px !important;}
